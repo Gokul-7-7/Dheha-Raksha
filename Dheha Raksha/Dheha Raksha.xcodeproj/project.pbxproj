@@ -18,6 +18,7 @@
 		55B3E33E29BA1A7100C416F1 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 55B3E33D29BA1A7100C416F1 /* FirebaseInstallations */; };
 		55B3E34029BA1A7100C416F1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 55B3E33F29BA1A7100C416F1 /* FirebaseStorage */; };
 		55B3E34229BA1A7100C416F1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 55B3E34129BA1A7100C416F1 /* FirebaseStorageCombine-Community */; };
+		55B3E34429BA1BD000C416F1 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3E34329BA1BD000C416F1 /* FirebaseHelper.swift */; };
 		55F687E429B5FC410002271D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F687E329B5FC410002271D /* AppDelegate.swift */; };
 		55F687E629B5FC410002271D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F687E529B5FC410002271D /* SceneDelegate.swift */; };
 		55F687E829B5FC410002271D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F687E729B5FC410002271D /* HomePageViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55B3E34329BA1BD000C416F1 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
 		55F687E029B5FC410002271D /* Dheha Raksha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dheha Raksha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F687E329B5FC410002271D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55F687E529B5FC410002271D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				55F687E329B5FC410002271D /* AppDelegate.swift */,
 				55F687E529B5FC410002271D /* SceneDelegate.swift */,
 				55F687E729B5FC410002271D /* HomePageViewController.swift */,
+				55B3E34329BA1BD000C416F1 /* FirebaseHelper.swift */,
 				55F687E929B5FC410002271D /* Main.storyboard */,
 				55F687EC29B5FC420002271D /* Assets.xcassets */,
 				55F687EE29B5FC420002271D /* LaunchScreen.storyboard */,
@@ -103,7 +106,6 @@
 				55F687DC29B5FC410002271D /* Sources */,
 				55F687DD29B5FC410002271D /* Frameworks */,
 				55F687DE29B5FC410002271D /* Resources */,
-				2FE5ADEE378DC9AC6B8585AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,23 +181,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FE5ADEE378DC9AC6B8585AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dheha Raksha/Pods-Dheha Raksha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dheha Raksha/Pods-Dheha Raksha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dheha Raksha/Pods-Dheha Raksha-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BD4C15B30583243479EF42FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B3E34429BA1BD000C416F1 /* FirebaseHelper.swift in Sources */,
 				55F687E829B5FC410002271D /* HomePageViewController.swift in Sources */,
 				55F687E429B5FC410002271D /* AppDelegate.swift in Sources */,
 				55F687E629B5FC410002271D /* SceneDelegate.swift in Sources */,
