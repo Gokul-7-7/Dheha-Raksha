@@ -11,20 +11,19 @@ import FirebaseDatabase
 
 class ViewController: UIViewController {
     
-   
-    
     @IBOutlet var tableView: UITableView!
     var ref: DatabaseReference?
     var dataBaseHandle: DatabaseHandle?
     
     var dict: [String:Double]? {
         didSet {
-            print("dictionary updated from firebase")
+            tableView.reloadData()
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
         //Set the fireBase reference
         ref = Database.database().reference()
         //Retrieve the data and listen for updates

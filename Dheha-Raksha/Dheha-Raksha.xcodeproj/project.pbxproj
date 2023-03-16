@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		55781B5229C3395B0073AF30 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55781B5129C3395B0073AF30 /* Helper.swift */; };
 		55781B5629C342760073AF30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55781B5529C342760073AF30 /* GoogleService-Info.plist */; };
+		55781B5829C357D50073AF30 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55781B5729C357D50073AF30 /* ViewController+TableView.swift */; };
 		55B3E35229BA3A9900C416F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3E35129BA3A9900C416F1 /* AppDelegate.swift */; };
 		55B3E35429BA3A9900C416F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3E35329BA3A9900C416F1 /* SceneDelegate.swift */; };
 		55B3E35629BA3A9900C416F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3E35529BA3A9900C416F1 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		55781B5129C3395B0073AF30 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		55781B5529C342760073AF30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55781B5729C357D50073AF30 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
 		55B3E34E29BA3A9900C416F1 /* Dheha-Raksha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dheha-Raksha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B3E35129BA3A9900C416F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B3E35329BA3A9900C416F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				55B3E35329BA3A9900C416F1 /* SceneDelegate.swift */,
 				55781B5129C3395B0073AF30 /* Helper.swift */,
 				55B3E35529BA3A9900C416F1 /* ViewController.swift */,
+				55781B5729C357D50073AF30 /* ViewController+TableView.swift */,
 				55B3E35729BA3A9900C416F1 /* Main.storyboard */,
 				55B3E35A29BA3A9A00C416F1 /* Assets.xcassets */,
 				55B3E35C29BA3A9A00C416F1 /* LaunchScreen.storyboard */,
@@ -171,6 +174,7 @@
 				55B3E35629BA3A9900C416F1 /* ViewController.swift in Sources */,
 				55B3E35229BA3A9900C416F1 /* AppDelegate.swift in Sources */,
 				55B3E35429BA3A9900C416F1 /* SceneDelegate.swift in Sources */,
+				55781B5829C357D50073AF30 /* ViewController+TableView.swift in Sources */,
 				55781B5229C3395B0073AF30 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
