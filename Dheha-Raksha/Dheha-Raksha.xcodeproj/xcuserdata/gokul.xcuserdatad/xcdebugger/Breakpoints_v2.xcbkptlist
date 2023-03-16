@@ -7,49 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "71987485-BF8E-40F1-BCFC-4DE6E5509ADE"
+            uuid = "9521D78B-DBC0-4D27-B7F5-9E0769487AC4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Dheha-Raksha/Helper.swift"
+            filePath = "Dheha-Raksha/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "callTheApi(url:completion:)"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "71987485-BF8E-40F1-BCFC-4DE6E5509ADE - 920db887e00bba46"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Dheha_Raksha.ApiManager.callTheApi(url: Swift.String, completion: (Swift.Result&lt;Swift.Bool, Dheha_Raksha.DataError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Dheha-Raksha"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gokul/Swift/Dheha-Raksha/Dheha-Raksha/Dheha-Raksha/Helper.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "236">
-               </Location>
-               <Location
-                  uuid = "71987485-BF8E-40F1-BCFC-4DE6E5509ADE - 920db887e00bba46"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Dheha_Raksha.ApiManager.callTheApi(url: Swift.String, completion: (Swift.Result&lt;Swift.Bool, Dheha_Raksha.DataError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Dheha-Raksha"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gokul/Swift/Dheha-Raksha/Dheha-Raksha/Dheha-Raksha/Helper.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "656">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

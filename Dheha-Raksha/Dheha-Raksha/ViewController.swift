@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     var dict: [String:Double]? {
         didSet {
-            makeApiCall()
+            print("dictionary updated from firebase")
         }
     }
     
@@ -28,11 +28,21 @@ class ViewController: UIViewController {
         //Set the fireBase reference
         ref = Database.database().reference()
         //Retrieve the data and listen for updates
-        dataBaseHandle = ref?.child("test").observe(.childChanged, with: { snapShot in
+        dataBaseHandle = ref?.child("test").observe(.value, with: { snapShot in
             self.dict = snapShot.value as? [String:Double] ?? [:]
             print(self.dict ?? [:])
-            //print(snapShot)
+            print(snapShot)
+            self.makeApiCall()
         })
+
+        // Schedule a timer to call the function every 10 seconds
+        let timer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: true) { timer in
+            if self.dict != [:] {
+                self.makeApiCall()
+            }
+        }
+        // Start the timer
+        timer.fire()
     }
     
     func setupUrl() -> String {
