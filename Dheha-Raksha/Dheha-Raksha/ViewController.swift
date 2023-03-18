@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         let temp = dict?["Temp"]
         let systalic = dict?["systalic"]
         let diastalic = dict?["diastalic"]
-        ApiManager.shared.callTheApi(url: "http://192.168.29.203:8080/arogyasuraksha/GokulTest?name=\(name)&pulseRate=\(pulseRate ?? 0)&SP02=\(sp02 ?? 0)&temp=\(temp ?? 0)&systalic=\(systalic ?? 0)&diastalic=\(diastalic ?? 0)") { response in
+        ApiManager.shared.callTheApi(url: "http://192.168.168.243:8080/arogyasuraksha/GokulTest?name=\(name)&pulseRate=\(pulseRate ?? 0)&SP02=\(sp02 ?? 0)&temp=\(temp ?? 0)&systalic=\(systalic ?? 0)&diastalic=\(diastalic ?? 0)") { response in
             switch response {
             case .success(let teamResponse):
                 if teamResponse == true {
